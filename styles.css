@@ -16,7 +16,6 @@ body {
 }
 
 p{
-    /*color:rgb(184, 144, 227);*/
     margin:10mm;
 }
 a{
@@ -32,7 +31,7 @@ a{
 
 #content-wrap{
     position: relative; 
-    padding-bottom: 2.5 rem;     Footer height 
+    padding-bottom: 2.5 rem;     
   }
 
 footer{
