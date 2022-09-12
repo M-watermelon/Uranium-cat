@@ -1,22 +1,29 @@
 body {
-    background-color: rgb(82, 128, 167);
+    background-color: #2E294E;
     font-family: Arial, Helvetica, sans-serif;
     margin:0mm;
     height: 60%;
 
 }
 
+.chat{
+    border: 2px solid #F46036 ;
+    width: 350px;
+    height: 150px;
+    margin: 10px auto;
+    padding: 25px;
+}
+
 .header{
-    color: rgb(192, 115, 57);
+    color: #F46036 /* rgb(192, 115, 57)*/;
     margin:10mm; /* fix for weird space between footer/body and edges of screen*/
-    text-shadow: -1px 1px 0 rgb(46, 45, 47),
-				  1px 1px 0 rgb(46, 45, 47),
-				 1px -1px 0 rgb(46, 45, 47);
+
 
 }
 
 p{
     margin:10mm;
+    color: #F46036
 }
 a{
     color:rgb(48, 96, 115);
@@ -40,6 +47,6 @@ footer{
     bottom: 0;
     width: 100%;
     height: 5.5rem;
-    background-color: rgb(225, 168, 107);
+    background-color: #F46036;
 }
 
