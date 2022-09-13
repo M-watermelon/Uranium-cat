@@ -2,17 +2,40 @@ body {
     background-color: #2E294E;
     font-family: Arial, Helvetica, sans-serif;
     margin:0mm;
-    height: 60%;
+    /*height: 60%;*/
 
 }
 
 .chat{
     border: 2px solid #F46036 ;
-    width: 350px;
-    height: 150px;
-    margin: 10px auto;
-    padding: 25px;
+    border-radius: 25px;
+    background-color:  #10073e;
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+    
 }
+.chatmessages{
+    border: 2px solid #F46036 ;
+    background-color:  #2E294E;
+    border-radius: 15px;
+    width: 450px;
+    height: 120px;
+    margin: 5px;
+}
+.textbox{
+    border: 2px solid #F46036 ;
+    background-color:  #353439;
+    border-radius: 55px;
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    /*flex: 1;
+    text-align: left; 
+    padding: 5px;
+    position: bottom ;*/
+}
+
 
 .header{
     color: #F46036 /* rgb(192, 115, 57)*/;
@@ -22,7 +45,8 @@ body {
 }
 
 p{
-    margin:10mm;
+
+    margin:5mm;
     color: #F46036;
 }
 a{
@@ -30,16 +54,16 @@ a{
 }
 
 
-#page-container {
+section {
     position: relative;
     min-height: 100vh;
     margin:10mm;
   }
 
-#content-wrap{
+/*#content-wrap{
     position: relative; 
     padding-bottom: 2.5 rem;     
-  }
+  }*/
 
 footer{
     
@@ -50,3 +74,10 @@ footer{
     background-color: #F46036;
 }
 
+.logout{
+    margin-left: 200px;
+    border: 5px solid #F46036 ;
+    border-radius: 25px;
+    color: #2E294E;
+    background-color: #F46036;
+}
