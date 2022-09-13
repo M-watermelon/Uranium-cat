@@ -2,7 +2,7 @@ body {
     background-color: #2E294E;
     font-family: Arial, Helvetica, sans-serif;
     margin:0mm;
-    /*height: 60%;*/
+    height: 60%;
 
 }
 
@@ -30,15 +30,12 @@ body {
     width: 450px;
     height: 50px;
     margin: 5px;
-    /*flex: 1;
-    text-align: left; 
-    padding: 5px;
-    position: bottom ;*/
+
 }
 
 
 .header{
-    color: #F46036 /* rgb(192, 115, 57)*/;
+    color: #F46036;
     margin:10mm; /* fix for weird space between footer/body and edges of screen*/
 
 
@@ -58,7 +55,7 @@ section {
     position: relative;
     min-height: 100vh;
     margin:10mm;
-  }
+}
 
 /*#content-wrap{
     position: relative; 
@@ -66,7 +63,6 @@ section {
   }*/
 
 footer{
-    
     position: bottom;
     bottom: 0;
     width: 100%;
